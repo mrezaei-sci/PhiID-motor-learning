@@ -1,0 +1,36 @@
+Exploratory ROI-pair-level permutation analysis for spatial specificity
+========================================================================
+
+Input file: D:\Projects\Neuroplasticity\PhiId\Outputs\PhiID_02_pairwise_delta_N13_107ROI_commonT216_tau1.csv
+Output directory: D:\Projects\Neuroplasticity\PhiId\Outputs\Permutation
+
+Subjects: 13
+ROIs: 107
+ROI pairs tested: 5671
+Atom tested: str_delta
+
+Permutation type: exact within-subject sign-flip
+Number of sign patterns/permutations: 8192
+Minimum possible p-value: 0.00012207
+
+Primary edge statistic: paired t-statistic on subject-level Δstr
+P-value: two-sided sign-flip permutation p-value
+Correction: BH-FDR across all ROI pairs
+
+Edges with positive mean Δstr: 5442/5671 (0.960)
+Edges with negative mean Δstr: 229/5671
+
+FDR q < 0.05 significant edges: 0
+FDR q < 0.05 positive significant edges: 0
+FDR q < 0.05 negative significant edges: 0
+FDR q < 0.10 significant edges: 0
+
+Minimum permutation p-value: 0.00024414
+Minimum BH-FDR q-value: 0.14946539
+
+Main output files:
+  D:\Projects\Neuroplasticity\PhiId\Outputs\Permutation\EdgePermutation_delta_str_all_5671_edges.csv
+  D:\Projects\Neuroplasticity\PhiId\Outputs\Permutation\EdgePermutation_delta_str_FDR05_significant_edges.csv
+  D:\Projects\Neuroplasticity\PhiId\Outputs\Permutation\EdgePermutation_delta_str_FDR05_significant_positive_edges.csv
+  D:\Projects\Neuroplasticity\PhiId\Outputs\Permutation\EdgePermutation_delta_str_top_300_positive_ranked_edges.csv
+  D:\Projects\Neuroplasticity\PhiId\Outputs\Permutation\EdgePermutation_network_pair_summary.csv

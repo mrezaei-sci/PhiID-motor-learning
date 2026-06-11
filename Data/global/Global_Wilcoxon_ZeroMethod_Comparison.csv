@@ -1,0 +1,4 @@
+metric_id,metric_label,role,n,median_delta,n_exact_zero_delta,wilcoxon_pratt_stat,wilcoxon_pratt_p_two_sided,wilcoxon_zsplit_stat,wilcoxon_zsplit_p_two_sided,wilcoxon_wilcox_stat_reference,wilcoxon_wilcox_p_two_sided_reference,wilcoxon_pratt_p_greater_reference_not_primary
+rtr,Redundancy transfer,secondary,13,2.241228201857065e-05,0,33.0,0.414306640625,33.0,0.414306640625,33.0,0.414306640625,0.2071533203125
+str,Synergistic transfer,primary,13,0.0390459366525536,0,6.0,0.00341796875,6.0,0.00341796875,6.0,0.00341796875,0.001708984375
+balance,Synergy-minus-redundancy balance,secondary_confirmatory,13,0.039023524370535,0,6.0,0.00341796875,6.0,0.00341796875,6.0,0.00341796875,0.001708984375
